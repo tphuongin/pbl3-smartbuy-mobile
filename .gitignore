@@ -1,0 +1,9 @@
+.vscode
+
+backend/api/bin
+backend/api/obj
+backend/api/appsettings.Development.json
+backend/api/appsettings.json
+backend/api/obj
+
+frontend/.vscode/
