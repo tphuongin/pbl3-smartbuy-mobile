@@ -1,6 +1,6 @@
 using api.Dtos.User;
 
-namespace api.Interface
+namespace api.Interfaces
 {
     public interface IUserService
     {

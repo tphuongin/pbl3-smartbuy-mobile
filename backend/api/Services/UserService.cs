@@ -1,5 +1,5 @@
 using api.Dtos.User;
-using api.Interface;
+using api.Interfaces;
 using api.Mappers;
 
 namespace api.Services

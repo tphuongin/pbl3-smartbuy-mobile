@@ -1,8 +1,8 @@
 using api.Database;
 using api.Exception;
-using api.Interface;
 using api.Repository;
 using api.Services;
+using api.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -18,7 +18,12 @@ builder.Services.AddDbContext<ApplicationDB>(option => option.UseMySql(
 )); // Thêm dịch vụ DbContext với MySQL
 builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
+builder.Services.AddScoped<IVoucherReponsitory, VoucherResponsitory>();
 builder.Services.AddExceptionHandler<APIException>(); // Thêm dịch vụ xử lý ngoại lệ
+
+// builder.Services.AddDbContext<ApplicationDB>(options =>
+//     options.UseMySql(builder.Configuration.GetConnectionString("DefaultConnection"),
+//         new MySqlServerVersion(new Version(8, 0, 32))));
 
 var app = builder.Build();
 

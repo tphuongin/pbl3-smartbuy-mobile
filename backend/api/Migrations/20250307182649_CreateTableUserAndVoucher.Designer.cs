@@ -12,8 +12,8 @@ using api.Database;
 namespace api.Migrations
 {
     [DbContext(typeof(ApplicationDB))]
-    [Migration("20250307175538_CreateTableUser")]
-    partial class CreateTableUser
+    [Migration("20250307182649_CreateTableUserAndVoucher")]
+    partial class CreateTableUserAndVoucher
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -92,6 +92,79 @@ namespace api.Migrations
                             t.HasCheckConstraint("ck_users_phone", "phone IS NULL OR phone REGEXP '^[0-9]{10}$'");
 
                             t.HasCheckConstraint("ck_users_role", "role IN ('admin', 'user')");
+                        });
+                });
+
+            modelBuilder.Entity("api.Models.Voucher", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INT")
+                        .HasColumnName("voucher_id");
+
+                    MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Code")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("VARCHAR(50)")
+                        .HasColumnName("code");
+
+                    b.Property<decimal?>("DiscountAmount")
+                        .HasColumnType("DECIMAL(10, 2)")
+                        .HasColumnName("discount_amount");
+
+                    b.Property<decimal?>("DiscountPercentage")
+                        .HasColumnType("DECIMAL(5, 2)")
+                        .HasColumnName("discount_percentage");
+
+                    b.Property<DateTime>("EndDate")
+                        .HasColumnType("DATE")
+                        .HasColumnName("end_date");
+
+                    b.Property<decimal?>("MaxDiscountAmount")
+                        .HasColumnType("DECIMAL(10, 2)")
+                        .HasColumnName("max_discount_amount");
+
+                    b.Property<int?>("MaxUses")
+                        .HasColumnType("INT")
+                        .HasColumnName("max_uses");
+
+                    b.Property<decimal?>("MinOrderValue")
+                        .HasColumnType("DECIMAL(10, 2)")
+                        .HasColumnName("min_order_value");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("VARCHAR(255)")
+                        .HasColumnName("name");
+
+                    b.Property<DateTime>("StartDate")
+                        .HasColumnType("DATE")
+                        .HasColumnName("start_date");
+
+                    b.Property<string>("Status")
+                        .IsRequired()
+                        .HasColumnType("VARCHAR(10)")
+                        .HasColumnName("status");
+
+                    b.Property<int>("UsedCount")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INT")
+                        .HasDefaultValue(0)
+                        .HasColumnName("used_count");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("vouchers", null, t =>
+                        {
+                            t.HasCheckConstraint("ck_vouchers_dates", "start_date <= end_date");
+
+                            t.HasCheckConstraint("ck_vouchers_discount", "discount_percentage IS NOT NULL OR discount_amount IS NOT NULL");
+
+                            t.HasCheckConstraint("ck_vouchers_max_uses", "max_uses IS NULL OR max_uses >= used_count");
+
+                            t.HasCheckConstraint("ck_vouchers_status", "status IN ('active', 'inactive')");
                         });
                 });
 #pragma warning restore 612, 618

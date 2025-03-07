@@ -1,3 +1,11 @@
+D:\WorkSpace\pbl3-smartbuy-mobile\backend\api\obj\Debug\net8.0\api.csproj.AssemblyReference.cache
+D:\WorkSpace\pbl3-smartbuy-mobile\backend\api\obj\Debug\net8.0\api.GeneratedMSBuildEditorConfig.editorconfig
+D:\WorkSpace\pbl3-smartbuy-mobile\backend\api\obj\Debug\net8.0\api.AssemblyInfoInputs.cache
+D:\WorkSpace\pbl3-smartbuy-mobile\backend\api\obj\Debug\net8.0\api.AssemblyInfo.cs
+D:\WorkSpace\pbl3-smartbuy-mobile\backend\api\obj\Debug\net8.0\api.csproj.CoreCompileInputs.cache
+D:\WorkSpace\pbl3-smartbuy-mobile\backend\api\obj\Debug\net8.0\api.MvcApplicationPartsAssemblyInfo.cs
+D:\WorkSpace\pbl3-smartbuy-mobile\backend\api\obj\Debug\net8.0\api.MvcApplicationPartsAssemblyInfo.cache
+D:\WorkSpace\pbl3-smartbuy-mobile\backend\api\obj\Debug\net8.0\api.sourcelink.json
 D:\WorkSpace\pbl3-smartbuy-mobile\backend\api\bin\Debug\net8.0\appsettings.Development.json
 D:\WorkSpace\pbl3-smartbuy-mobile\backend\api\bin\Debug\net8.0\appsettings.json
 D:\WorkSpace\pbl3-smartbuy-mobile\backend\api\bin\Debug\net8.0\api.staticwebassets.endpoints.json
@@ -28,6 +36,7 @@ D:\WorkSpace\pbl3-smartbuy-mobile\backend\api\bin\Debug\net8.0\Microsoft.Extensi
 D:\WorkSpace\pbl3-smartbuy-mobile\backend\api\bin\Debug\net8.0\Microsoft.OpenApi.dll
 D:\WorkSpace\pbl3-smartbuy-mobile\backend\api\bin\Debug\net8.0\Mono.TextTemplating.dll
 D:\WorkSpace\pbl3-smartbuy-mobile\backend\api\bin\Debug\net8.0\MySqlConnector.dll
+D:\WorkSpace\pbl3-smartbuy-mobile\backend\api\bin\Debug\net8.0\Newtonsoft.Json.dll
 D:\WorkSpace\pbl3-smartbuy-mobile\backend\api\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
 D:\WorkSpace\pbl3-smartbuy-mobile\backend\api\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
 D:\WorkSpace\pbl3-smartbuy-mobile\backend\api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
@@ -90,14 +99,6 @@ D:\WorkSpace\pbl3-smartbuy-mobile\backend\api\bin\Debug\net8.0\ru\Microsoft.Code
 D:\WorkSpace\pbl3-smartbuy-mobile\backend\api\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\WorkSpace\pbl3-smartbuy-mobile\backend\api\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\WorkSpace\pbl3-smartbuy-mobile\backend\api\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\WorkSpace\pbl3-smartbuy-mobile\backend\api\obj\Debug\net8.0\api.csproj.AssemblyReference.cache
-D:\WorkSpace\pbl3-smartbuy-mobile\backend\api\obj\Debug\net8.0\api.GeneratedMSBuildEditorConfig.editorconfig
-D:\WorkSpace\pbl3-smartbuy-mobile\backend\api\obj\Debug\net8.0\api.AssemblyInfoInputs.cache
-D:\WorkSpace\pbl3-smartbuy-mobile\backend\api\obj\Debug\net8.0\api.AssemblyInfo.cs
-D:\WorkSpace\pbl3-smartbuy-mobile\backend\api\obj\Debug\net8.0\api.csproj.CoreCompileInputs.cache
-D:\WorkSpace\pbl3-smartbuy-mobile\backend\api\obj\Debug\net8.0\api.MvcApplicationPartsAssemblyInfo.cs
-D:\WorkSpace\pbl3-smartbuy-mobile\backend\api\obj\Debug\net8.0\api.MvcApplicationPartsAssemblyInfo.cache
-D:\WorkSpace\pbl3-smartbuy-mobile\backend\api\obj\Debug\net8.0\api.sourcelink.json
 D:\WorkSpace\pbl3-smartbuy-mobile\backend\api\obj\Debug\net8.0\scopedcss\bundle\api.styles.css
 D:\WorkSpace\pbl3-smartbuy-mobile\backend\api\obj\Debug\net8.0\staticwebassets.build.json
 D:\WorkSpace\pbl3-smartbuy-mobile\backend\api\obj\Debug\net8.0\staticwebassets.development.json
