@@ -1,3 +1,8 @@
+using api.Database;
+using api.Interfaces;
+using api.Responsitory;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -5,6 +10,12 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddControllers();
+
+builder.Services.AddDbContext<ApplicationDB>(options =>
+    options.UseMySql(builder.Configuration.GetConnectionString("DefaultConnection"),
+        new MySqlServerVersion(new Version(8, 0, 32))));
+
+builder.Services.AddScoped<IVoucherReponsitory, VoucherResponsitory>();
 
 var app = builder.Build();
 
