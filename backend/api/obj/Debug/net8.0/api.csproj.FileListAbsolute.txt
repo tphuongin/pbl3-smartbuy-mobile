@@ -6,6 +6,7 @@ D:\WorkSpace\pbl3-smartbuy-mobile\backend\api\bin\Debug\net8.0\api.deps.json
 D:\WorkSpace\pbl3-smartbuy-mobile\backend\api\bin\Debug\net8.0\api.runtimeconfig.json
 D:\WorkSpace\pbl3-smartbuy-mobile\backend\api\bin\Debug\net8.0\api.dll
 D:\WorkSpace\pbl3-smartbuy-mobile\backend\api\bin\Debug\net8.0\api.pdb
+D:\WorkSpace\pbl3-smartbuy-mobile\backend\api\bin\Debug\net8.0\BCrypt.Net-Next.dll
 D:\WorkSpace\pbl3-smartbuy-mobile\backend\api\bin\Debug\net8.0\Humanizer.dll
 D:\WorkSpace\pbl3-smartbuy-mobile\backend\api\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
 D:\WorkSpace\pbl3-smartbuy-mobile\backend\api\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
@@ -17,9 +18,17 @@ D:\WorkSpace\pbl3-smartbuy-mobile\backend\api\bin\Debug\net8.0\Microsoft.EntityF
 D:\WorkSpace\pbl3-smartbuy-mobile\backend\api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
 D:\WorkSpace\pbl3-smartbuy-mobile\backend\api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
 D:\WorkSpace\pbl3-smartbuy-mobile\backend\api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\WorkSpace\pbl3-smartbuy-mobile\backend\api\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\WorkSpace\pbl3-smartbuy-mobile\backend\api\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\WorkSpace\pbl3-smartbuy-mobile\backend\api\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 D:\WorkSpace\pbl3-smartbuy-mobile\backend\api\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\WorkSpace\pbl3-smartbuy-mobile\backend\api\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\WorkSpace\pbl3-smartbuy-mobile\backend\api\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\WorkSpace\pbl3-smartbuy-mobile\backend\api\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
 D:\WorkSpace\pbl3-smartbuy-mobile\backend\api\bin\Debug\net8.0\Microsoft.OpenApi.dll
 D:\WorkSpace\pbl3-smartbuy-mobile\backend\api\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\WorkSpace\pbl3-smartbuy-mobile\backend\api\bin\Debug\net8.0\MySqlConnector.dll
+D:\WorkSpace\pbl3-smartbuy-mobile\backend\api\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
 D:\WorkSpace\pbl3-smartbuy-mobile\backend\api\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
 D:\WorkSpace\pbl3-smartbuy-mobile\backend\api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\WorkSpace\pbl3-smartbuy-mobile\backend\api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
